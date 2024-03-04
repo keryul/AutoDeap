@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# deap.000
+# deap.exe
+ExcelData.txt
+/2024*
+AutoDeap.exe
