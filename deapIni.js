@@ -105,7 +105,6 @@ for (const category of categoryList) {
   }
 
   // 整理数据成 csv 文件
-  let result = [];
   for (let i = 0; i < insObj.Firms; i++) {
     let element = `${category} ${data[0][i]}`;
     for (let y = 1; y < data.length; y++) {
