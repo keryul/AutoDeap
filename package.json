@@ -1,10 +1,9 @@
 {
     "name": "AutoDeap",
     "version": "1.0.0",
-    "description": "DEAP Version 2.1\r ****************",
+    "description": "Auto script for DEAP2.1",
     "main": "deapIni.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "pkg":"pkg . -t node18-win-x64 --out-path=./"
     },
     "author": "",
