@@ -133,4 +133,4 @@ dist
 # deap.exe
 ExcelData.txt
 /2024*
-AutoDeap.exe
+AutoDeap*.exe

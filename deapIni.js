@@ -82,7 +82,10 @@ fs.writeFileSync(excelOutputFilePath, "");
 for (const category of categoryList) {
   const outputFilePath = `${process.cwd()}/${category}.yaml`;
   while (true) {
-    if (fs.existsSync(outputFilePath)) {
+    if (
+      fs.existsSync(outputFilePath) &&
+      fs.readFileSync(outputFilePath, "utf-8").toString() !== ""
+    ) {
       break;
     }
   }
