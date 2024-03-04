@@ -1,10 +1,10 @@
 {
     "name": "AutoDeap",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Auto script for DEAP2.1",
     "main": "deapIni.js",
     "scripts": {
-        "pkg":"pkg . -t node18-win-x64 --out-path=./"
+        "pkg":"pkg . -t node18-win-x64 --output=AutoDeap_v1.0.1.exe"
     },
     "author": "",
     "license": "ISC",
